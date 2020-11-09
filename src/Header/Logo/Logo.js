@@ -1,9 +1,5 @@
 import logo from "./full-word.svg";
 import React from "react";
-
-
-
-
 function Logo(){
 return(
     <div className="logo">
@@ -11,10 +7,4 @@ return(
     </div>
 )
 }
-
-
-
-
-
-
 export default Logo

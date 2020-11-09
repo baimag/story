@@ -1,8 +1,4 @@
 
-
-
-
-
 function Menu(){
   return (
       <div className="menu">
@@ -27,10 +23,4 @@ function Menu(){
       </div>
   )
 }
-
-
-
-
-
-
 export default Menu

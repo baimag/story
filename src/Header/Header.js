@@ -1,25 +1,17 @@
-import "./Logo/Logo"
-import "./Menu"
-import "../Checkout/Checkout"
+
+import React from 'react';
 import Logo from "./Logo/Logo";
 import Menu from "./Menu";
-import Checkout from "../Checkout/Checkout";
+import Checkout from "../Checkout";
 
-
-
-
-function Header(){
-    return( <div className="header">
-     <Logo/>
-     <Menu/>
-     <Checkout/>
-    </div>
-    )
+function Header(props) {
+    return (
+        <div className="header">
+            <Logo />
+            <Menu />
+            <Checkout database={props.database} />
+        </div>
+    );
 }
 
-
-
-
-
-
-export default Header
+export default Header;
